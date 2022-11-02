@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=Customer.cc Movie.cc fowler.cc
+SOURCES=Customer.cc Movie.cc
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=fowler
 
